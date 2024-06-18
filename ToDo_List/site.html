@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ToDo List</h1>
+        <div id="task-form">
+            <input type="hidden" id="task-id">
+            <input type="text" id="task-title" placeholder="Title">
+            <textarea id="task-description" placeholder="Description"></textarea>
+            <button onclick="saveTask()">Save Task</button>
+        </div>
+        <div id="tasks"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
